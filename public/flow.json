@@ -1,0 +1,97 @@
+[
+  {
+    "id": 100,
+    "name": "liability",
+    "text": "Benötigen Sie eine Haftplichtversicherung?",
+    "uiType": "button",
+    "valueOptions": [
+      {
+        "nextId": 200,
+        "text": "Ja",
+        "value": true
+      },
+      {
+        "nextId": 200,
+        "text": "Nein",
+        "value": false
+      }
+    ],
+    "valueType": "boolean"
+  },
+  {
+    "id": 200,
+    "name": "casco",
+    "text": "Benötigen Sie eine Kasko?",
+    "uiType": "button",
+    "valueOptions": [
+      {
+        "nextId": 201,
+        "text": "Ja",
+        "value": true
+      },
+      {
+        "nextId": 300,
+        "text": "Nein",
+        "value": false
+      }
+    ],
+    "valueType": "boolean"
+  },
+  {
+    "id": 201,
+    "name": "cascoType",
+    "text": "Welche Art von Kasko benötigen Sie?",
+    "uiType": "button",
+    "valueOptions": [
+      {
+        "nextId": 300,
+        "text": "Vollkasko",
+        "value": "full"
+      },
+      {
+        "nextId": 300,
+        "text": "Teilkasko",
+        "value": "part"
+      }
+    ],
+    "valueType": "string"
+  },
+  {
+    "id": 300,
+    "name": "licensePlateType",
+    "text": "Welche Kennzeichenart benötigen Sie?",
+    "uiType": "button",
+    "valueOptions": [
+      {
+        "nextId": false,
+        "text": "Einzelkennzeichen",
+        "value": "ekz"
+      },
+      {
+        "nextId": 301,
+        "text": "Wechselkennzeichen",
+        "value": "wkz"
+      }
+    ],
+    "valueType": "string"
+  },
+  {
+    "id": 301,
+    "name": "vehicles",
+    "text": "Wieviele Fahrzeuge wollen Sie versichern?",
+    "uiType": "button",
+    "valueOptions": [
+      {
+        "nextId": false,
+        "text": "Zwei Fahrzeuge",
+        "value": 2
+      },
+      {
+        "nextId": false,
+        "text": "Drei Fahrzeuge",
+        "value": 3
+      }
+    ],
+    "valueType": "number"
+  }
+]
